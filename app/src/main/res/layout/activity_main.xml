@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/waiter" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:textSize="15dp"
+            android:text="If you want to handle the token expiry issue with Fuel, you can save the expiry time also in the shared preferences in addition to the token and token type. Then once an api call request fails with a 401 response code, you can assume that one reason may be the token has expired. So you can check that and call the “setAuthToken” method again to get a new token and resume the failed api request with the new token. If you want to handle the token expiry issue with Fuel, you can save the expiry time also in the shared preferences in addition to the token and token type. Then once an api call request fails with a 401 response code, you can assume that one reason may be the token has expired. So you can check that and call the “setAuthToken” method again to get a new token and resume the failed api request with the new token."
+            android:layout_gravity="center"
+            android:layout_margin="10dp" />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/waiter" />
+
+</LinearLayout>
